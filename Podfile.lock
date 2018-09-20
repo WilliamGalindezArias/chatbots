@@ -1,0 +1,60 @@
+PODS:
+  - ApiAI (0.7.2):
+    - ApiAI/AudioFileConverter (= 0.7.2)
+    - ApiAI/Core (= 0.7.2)
+    - ApiAI/Events (= 0.7.2)
+    - ApiAI/ResponseMapping (= 0.7.2)
+    - ApiAI/UIKit (= 0.7.2)
+    - ApiAI/UserEntities (= 0.7.2)
+    - ApiAI/VoiceFileRequest (= 0.7.2)
+    - ApiAI/VoiceRequest (= 0.7.2)
+  - ApiAI/AudioFileConverter (0.7.2):
+    - ApiAI/Core
+  - ApiAI/Core (0.7.2)
+  - ApiAI/Events (0.7.2):
+    - ApiAI/Core
+  - ApiAI/ResponseMapping (0.7.2):
+    - ApiAI/Core
+  - ApiAI/UIKit (0.7.2):
+    - ApiAI/Core
+    - ApiAI/VoiceRequest
+  - ApiAI/UserEntities (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceFileRequest (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceRequest (0.7.2):
+    - ApiAI/Core
+  - MASConnecta (1.8.00):
+    - MASFoundation (= 1.8.00)
+    - MASIdentityManagement (= 1.8.00)
+  - MASFoundation (1.8.00)
+  - MASIdentityManagement (1.8.00):
+    - MASFoundation (= 1.8.00)
+  - MASUI (1.8.00):
+    - MASFoundation (= 1.8.00)
+
+DEPENDENCIES:
+  - ApiAI
+  - MASConnecta
+  - MASFoundation
+  - MASIdentityManagement
+  - MASUI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ApiAI
+    - MASConnecta
+    - MASFoundation
+    - MASIdentityManagement
+    - MASUI
+
+SPEC CHECKSUMS:
+  ApiAI: d4b49d3736f33ce6f3ef66dc33c0e0fccb23579e
+  MASConnecta: 1749b0d9d826e28edd0f25981765f130e8078273
+  MASFoundation: a9ca44f997ec5ad7b5efeafc2f1d7e0ecb234ee8
+  MASIdentityManagement: 78fd4f5d64796a67b07b81bb5f657b3a7081ca26
+  MASUI: 7eddd90d652a312a6a31924c0f080cc654bcffe7
+
+PODFILE CHECKSUM: 8d7e2077dd7451a2fff0c5ae567097634cd1d7b6
+
+COCOAPODS: 1.5.3
